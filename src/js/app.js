@@ -64,7 +64,7 @@ window.addEventListener("DOMContentLoaded", () => {
       const priceCell = document.createElement("td");
       priceCell.textContent = formatCurrency(product.price);
       row.appendChild(priceCell);
-  //Reused
+      //Reused
   const Reused = document.createElement("td");
       Reused.textContent = product.Condition;
       row.appendChild(Reused);
